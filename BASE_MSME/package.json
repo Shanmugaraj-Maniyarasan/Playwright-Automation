@@ -1,0 +1,24 @@
+{
+  "name": "base-msme-playwright-bdd",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^24.3.0",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^3.4.1",
+    "cross-env": "^10.0.0",
+    "playwright": "^1.52.0",
+    "playwright-bdd": "^9.2.0",
+    "tsconfig-paths": "^4.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}

@@ -1,0 +1,26 @@
+# .gitignore - Playwright BDD Project
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Test outputs
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime state
+test-data/runtime/
+
+# Logs
+*.log

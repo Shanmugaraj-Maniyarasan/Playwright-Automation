@@ -1,0 +1,6 @@
+# Test Data Excel Files
+Place your Excel test data files in this folder.
+
+Example structure:
+- login-data.xlsx (with LoginData sheet containing dataKey, url, userName, passWord columns)
+- application-data.xlsx (with relevant sheets for your application flows)
